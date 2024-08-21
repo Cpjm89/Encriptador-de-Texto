@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --color-primario:#f0f8ff;
+    --color-secundario: #0A3871;
+    --color-terciario: #D8DFE8;
+    --color-cuatro: #495057;
+
+    --tipografia: "Inter", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-primario);
+    color: var(--color-cuatro);
+    height: 100vh;
+}
+
+
+.titulo-destacado{
+    color: var(--color-secundario);
+}
+
+.primer-caja{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    justify-content: space-between;
+}
+
+.logo-alura{
+    width: 120px;
+    justify-content: left;
+    gap: 250px;
+}
+
+.primercaja-contenido{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.imagen-muneco{
+    width: 336px;
+    display: flex;
+    justify-content: right;
+}
+
+
+.primercaja-contenido-titulo{
+    font-size: 32px;
+    font-family: var(--tipografia);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.primercaja-contenido-texto{
+    font-size: 16px;
+    font-family: var(--tipografia);
+    font-weight: 700;
+
+}
+
+.primercaja-contenido-texto2{
+    font-family: var(--tipografia);
+    font-size: 14px;
+}
+
+.texto-alerta-minusculas{
+    font-family: var(--tipografia);
+    font-size: 12px;
+    display: flex;
+    justify-content: left;
+    size: 16px;
+}
+
+.botones{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.alerta{
+    display: flex;
+    justify-content: left;
+    gap: 2px; 
+}
+
+.estilo-encriptar{
+    width: 328px;
+    height: 10px;
+    color: var(--color-terciario);
+    background-color: var(--color-secundario);
+    text-align: center;
+    padding: 24px 0;
+    border-radius: 16px;
+    font-family: var(--tipografia);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.estilo-desencriptar{
+    width: 328px;
+    height: 10px;
+    color: var(--color-secundario);
+    background-color: var(--color-terciario);
+    text-align: center;
+    padding: 24px 0px;
+    border-radius: 16px;
+    font-family: var(--tipografia);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.estilo-encriptar:hover {
+    background-color:var(--color-cuatro);
+}
+
+.estilo-desencriptar:hover{
+    background-color: var(--color-cuatro);
+    color: var(--color-primario);
+}
+
+.footer{
+    background-color: var(--color-secundario);
+    padding: 15px;
+    color: var(--color-terciario);
+    text-align: center;
+    font-family: var(--tipografia);
+}
+
+
+.logo-admiración{
+    width: 16px;
+}
